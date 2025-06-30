@@ -29,6 +29,6 @@ class ClassificationMetricArtifact:
 
 @dataclass
 class ModelTrainerArtifact:
-    trained_model_file_path:str
-    train_model_artifact:ClassificationMetricArtifact
-    test_model_artifact:ClassificationMetricArtifact
+    trained_model_file_path: str
+    train_metric_artifact: ClassificationMetricArtifact
+    test_metric_artifact: ClassificationMetricArtifact

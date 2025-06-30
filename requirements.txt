@@ -8,5 +8,9 @@ scikit-learn
 dill
 mlflow==2.11.3
 pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
 
 # -e .

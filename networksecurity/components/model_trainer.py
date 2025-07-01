@@ -27,11 +27,11 @@ import mlflow
 from urllib.parse import urlparse
 
 import dagshub
-dagshub.init(repo_owner='durvankur', repo_name='Network_Security', mlflow=True)
+# dagshub.init(repo_owner='durvankur', repo_name='Network_Security', mlflow=True)
 
-# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/durvankur/Network_Security.mlflow"
-# os.environ["MLFLOW_TRACKING_USERNAME"]="durvankur"
-# os.environ["MLFLOW_TRACKING_PASSWORD"]="4d588232dcdcd4d7003038f8b90b0fe061d7c57c"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/durvankur/Network_Security.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="durvankur"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="4d588232dcdcd4d7003038f8b90b0fe061d7c57c"
  
 
 
